@@ -25,6 +25,7 @@
 
         <receiver
             android:name=".WidgetTextoReceiver"
+            android:label="Saludo"
             android:enabled="@bool/glance_appwidget_available"
             android:exported="false">
             <intent-filter>
@@ -38,6 +39,7 @@
 
         <receiver
             android:name=".WidgetListaReceiver"
+            android:label="Lista"
             android:enabled="@bool/glance_appwidget_available"
             android:exported="false">
             <intent-filter>

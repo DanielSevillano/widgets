@@ -62,9 +62,11 @@ class WidgetLista : GlanceAppWidget() {
 }
 
 class WidgetTextoReceiver : GlanceAppWidgetReceiver() {
-    override val glanceAppWidget = WidgetTexto()
+    override val glanceAppWidget: GlanceAppWidget
+        get() = WidgetTexto()
 }
 
 class WidgetListaReceiver : GlanceAppWidgetReceiver() {
-    override val glanceAppWidget = WidgetLista()
+    override val glanceAppWidget: GlanceAppWidget
+        get() = WidgetLista()
 }
