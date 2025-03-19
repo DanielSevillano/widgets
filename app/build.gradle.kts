@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.daniel.widgets"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.daniel.widgets"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -36,6 +36,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+
     kotlinOptions {
         jvmTarget = "17"
     }
@@ -49,8 +50,6 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-
-    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
